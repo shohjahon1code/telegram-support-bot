@@ -1,5 +1,6 @@
 import TelegramAddon from './addons/telegram';
 
+
 interface ModeData {
   ticketid: string;
   userid: string | number;
@@ -169,5 +170,6 @@ class Context {
   getChat: Function;
   getFile: Function;
 }
+
 
 export {SessionData, Context, Language, Config, Cache, ModeData};
